@@ -20,7 +20,6 @@ services:
       MARIADB_ROOT_PASSWORD: 12345678
     volumes:
       - ${DB_PATH_HOST}:/var/lib/mysql
-    user: 1000:1000
 
   adminer:
     image: adminer
